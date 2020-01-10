@@ -971,8 +971,8 @@ button:focus {
     padding: 0 10px;
 }
 
-ul, 
-li {
+.list-container ul, 
+.list-container li {
     background: #3e3e3e;
     color: #fff;
     font-size: .95em;
