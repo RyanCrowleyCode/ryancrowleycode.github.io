@@ -38,7 +38,8 @@
         nav: false,
         doots: false,
         autoplay: true,
-        animateOut: 'fadeOutRight',
+        // animateOut: 'fadeOutRight',
+        animateOut: 'fadeOut',
         animateIn: 'fadeIn'
 
     });
