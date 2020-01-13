@@ -15,7 +15,7 @@ Version: 1.0
 * Hero Area / Welcome Area / Slider Area
 * Featured Area
 * About Area
-* Fact Counter Section
+* Technology Section
 * Service Section
 * Why choose Me Section
 * Portfolio Section
@@ -543,10 +543,11 @@ button:focus {
 
 
 /*::::::::::::::::::::::::::::::::::::
-   Fact Counter Section
+   Technology Section
 ::::::::::::::::::::::::::::::::::::*/
 
-.fact-counter:after {
+
+.technology:after {
     position: absolute;
     content: '';
     left: 0;
@@ -559,29 +560,36 @@ button:focus {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
+.technology .section-title h2:after {
+    background-color: #fff;
+}
 
-.single-fun-fact {
+.tech-title h2 {
+    color: #fff;
+}
+
+.single-technology {
     border: 1px solid #fff;
     padding: 15px;
     margin-bottom: 30px;
 }
 
-.single-fun-fact h2 {
+.single-technology h2 {
     line-height: 1;
     color: #fff;
 }
 
-.single-fun-fact h2 span {
+.single-technology h2 span {
     margin-right: 5px;
 }
 
-.single-fun-fact p {
+.single-technology p {
     color: #fff;
     position: relative;
     margin-top: 30px;
 }
 
-.single-fun-fact p:after {
+.single-technology p:after {
     position: absolute;
     content: '';
     left: 50%;
