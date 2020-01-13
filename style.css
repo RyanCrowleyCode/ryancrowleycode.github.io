@@ -569,9 +569,17 @@ button:focus {
 }
 
 .single-technology {
-    border: 1px solid #fff;
     padding: 15px;
     margin-bottom: 30px;
+}
+
+.tech-icons {
+    display: flex;
+    display: row;
+}
+
+.tech-icons img {
+    width: 20%;
 }
 
 .single-technology h2 {
