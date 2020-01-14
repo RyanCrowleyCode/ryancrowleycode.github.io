@@ -587,6 +587,13 @@ button:focus {
     margin: 5px;
 }
 
+@media (max-width: 600px) {
+    .tech-icons img {
+        max-height: 50px;
+        max-width: 50px;
+    }
+}
+
 .single-technology h2 {
     line-height: 1;
     color: #fff;
