@@ -582,7 +582,8 @@ button:focus {
 
 .tech-icons img {
     width: 10%;
-    /* height: auto; */
+    max-height: 100px;
+    max-width: 100px;
     margin: 5px;
 }
 
