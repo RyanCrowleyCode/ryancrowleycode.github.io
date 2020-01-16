@@ -270,6 +270,8 @@
                             <li class="filter" class="active" data-filter="all">ALL</li>
                             <li class="filter" data-filter=".react">React</li>
                             <li class="filter" data-filter=".python">Python</li>
+                            <li class="filter" data-filter=".personal">Personal</li>
+                            <li class="filter" data-filter=".group">Group</li>
                         </ul>
                     </div>
                 </div>
@@ -277,7 +279,7 @@
             </div>
             <div class="row portfolio">
                 <!-- Single Portfolio -->
-                <a class="col-lg-4 col-md-6 mix wp python" data-toggle='modal' data-target='#ageModal'
+                <a class="col-lg-4 col-md-6 mix wp python personal" data-toggle='modal' data-target='#ageModal'
                     href="assets/images/age_start_screen.png">
 
                     <div class="single-portfolio"
@@ -293,7 +295,7 @@
                 </a>
                 <!-- // Single Portfolio -->
                 <!-- Single Portfolio -->
-                <a class="col-lg-4 col-md-6 mix wp react" data-toggle='modal' data-target='#streamlineModal'
+                <a class="col-lg-4 col-md-6 mix wp react personal" data-toggle='modal' data-target='#streamlineModal'
                     href="assets/images/portfolio/StreamlineMovies.png">
 
                     <div class="single-portfolio"
@@ -309,7 +311,7 @@
                 </a>
                 <!-- // Single Portfolio -->
                 <!-- Single Portfolio -->
-                <a class="col-lg-4 col-md-6 mix wp react" data-toggle='modal' data-target='#nutshellModal'
+                <a class="col-lg-4 col-md-6 mix wp react group" data-toggle='modal' data-target='#nutshellModal'
                     href="assets/images/portfolio/NutshellEvents.png">
 
                     <div class="single-portfolio"
@@ -318,7 +320,7 @@
                             <i class="fas fa-expand-arrows-alt"></i>
                         </div>
                         <div class="portfolio-hover">
-                            <h4>Nutshell</h4>
+                            <h4>Nutshell (Group Project)</h4>
                         </div>
                     </div>
 
@@ -344,11 +346,21 @@
                 <div class="modal-body">
                     <img src="assets/images/portfolio/StreamlineMovies.png" alt="Streamline">
                     <div class="modalText">
-                        <p>Streamline is a single-page web application that allows users to search a database of movies,
-                            add movies to their own custom watchlists, and track where each movie is available to stream
-                            or otherwise view. Streamline utilizes full CRUD functionality. This is an individual
-                            project to complete the front-end capstone requirements at Nashville Software School.</p>
+                        <p>I love to watch movies. There are so many streaming sites to watch movies on, and it can be
+                            difficult to keep track of which movies are available on which sites. I built Streamline to
+                            solve this problem.</p>
                         <br>
+                        <ul>
+                            <li>Single-page web application that allows users to search for movies, add movies to their
+                                own custom watchlists, and track where the each movie is available to stream or
+                                otherwise view</li>
+                            <li>Front-end capstone project at NSS</li>
+                            <li>React.js to dynamically render reusable components</li>
+                            <li>Leverages <a
+                                href="https://www.themoviedb.org/" target="_blank">The Movie Database API</a> to allow users to search for movies</li>
+                            <li>JSON server used for user specific persistent storage</li>
+                            <li>React Bootstrap for styling</li>
+                        </ul>
                         <p><b>Technologies:</b> React, JavaScript, JSON server, React Bootstrap, CSS, Flexbox, and <a
                                 href="https://www.themoviedb.org/" target="_blank">The Movie Database API.</a></p>
                     </div>
@@ -370,7 +382,7 @@
                     <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">x</span>
                     </button>
-                    <h3 class="modal-title" id="nutshellModalLabel">NUTSHELL</h3>
+                    <h3 class="modal-title" id="nutshellModalLabel">NUTSHELL (Group Project)</h3>
                 </div>
                 <div class="modal-body">
                     <img src="assets/images/portfolio/NutshellEvents.png" alt="Nutshell">
@@ -382,7 +394,7 @@
                         <p>I was individually responsible for the events section, which implemented CRUD functionality
                             for users to create, edit, and delete events and display their events on the DOM
                             chronologically.</p><br>
-                        <p><b>Technologies:</b> CSS, Bootstrap, JavaScript, React, and JSON Server.</p>
+                        <p><b>Technologies:</b>  CSS and Bootstrap for styling, JavaScript for fetch calls and helper functions, React for reusable components, JSON Server user specific persistent storage.</p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center modal-footer">
@@ -407,11 +419,12 @@
                 <div class="modal-body">
                     <img src="assets/images/portfolio/age_start_screen.png" alt="Age">
                     <div class="modalText">
+                        <p>Before coming to NSS, I spent time learning Python on my own to find out if software
+                            development was for me. This is my first big
+                            personal project, and I learned a tremendous amount about Python, logic, and modules.</p>
+                        <br>
                         <p>Age is a simple Python 3 program. The program takes in a birthdate and returns how old the
                             user is in days, as well as how old the user is in years, months, weeks, and days.</p>
-                        <br>
-                        <p>This is one of my earliest projects. When I was learning to code, this became my first big
-                            personal project, and I learned a tremendous amount about Python, logic, and modules.</p>
                         <br>
                         <p><b>Technologies:</b> Python</p>
                     </div>
