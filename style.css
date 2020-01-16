@@ -593,7 +593,7 @@ button:focus {
 
 @media (max-width: 700px) {
     .tech-icons img {
-        width: 5%;
+        width: 4%;
         max-height: 40px;
         max-width: 40px;
     }
@@ -602,7 +602,7 @@ button:focus {
 
 @media (max-width: 750px) {
     .tech-icons img {
-        width: 7%;
+        width: 5%;
         max-height: 50px;
         max-width: 50px;
     }
@@ -610,7 +610,7 @@ button:focus {
 
 @media (max-width: 800px) {
     .tech-icons img {
-        width: 8.5%;
+        width: 7%;
         max-height: 60px;
         max-width: 60px;
     }
