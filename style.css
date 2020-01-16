@@ -581,38 +581,67 @@ button:focus {
     display: flex;
     display: row;
     flex-wrap: wrap;
-    /* justify-content: center; */
 }
 
-.tech-icons img {
+.tech-icon {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-height: 100px;
+    max-width: 100px;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+.tech-icon h6 {
+    color: white;
+    width: 100%;
+}
+/* .tech-icons img {
     width: 10%;
     max-height: 100px;
     max-width: 100px;
     margin: 5px;
-}
+} */
 
 @media (max-width: 700px) {
-    .tech-icons img {
-        width: 5%;
+    .tech-icons {
+        justify-content: center;
+    }
+    .tech-icon {
+        width: 25%;
         max-height: 40px;
         max-width: 40px;
+    }
+    .tech-icon h6 {
+        font-size: .5em;
     }
 }
 
 
 @media (max-width: 750px) {
-    .tech-icons img {
-        width: 6%;
+    .tech-icons {
+        align-content: center;
+    }
+    .tech-icon {
+        width: 20%;
         max-height: 50px;
         max-width: 50px;
+    }
+    .tech-icon h6 {
+        font-size: .7em;
     }
 }
 
 @media (max-width: 800px) {
-    .tech-icons img {
-        width: 7%;
+    .tech-icon {
+        width: 15%;
         max-height: 60px;
         max-width: 60px;
+    }
+    .tech-icon h6 {
+        font-size: .8em;
     }
 }
 
