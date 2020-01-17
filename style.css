@@ -594,6 +594,12 @@ button:focus {
     margin-bottom: 25px;
 }
 
+#github-tech-icon {
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+}
+
 .tech-icon h6 {
     color: white;
     width: 100%;
