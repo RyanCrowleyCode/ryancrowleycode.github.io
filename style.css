@@ -90,6 +90,7 @@ img {
     text-transform: uppercase;
     border: 2px solid;
     padding: 10px 20px;
+    text-align: center;
 }
 
 .button:hover {
@@ -832,6 +833,17 @@ button:focus {
 /*::::::::::::::::::::::::::::::::::::
    Portfolio Modal
 ::::::::::::::::::::::::::::::::::::*/
+
+.multiple-repos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.react-repo, .django-repo {
+    display: flex;
+    flex-direction: column;
+}
 
 .modal-header {
     display: flex;
